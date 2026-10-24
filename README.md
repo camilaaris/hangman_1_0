@@ -1,7 +1,31 @@
 # hangman_1_0
 Danna camila aristizabal calvo 
 danna.aristizabal@utp.edu.co
-Planificación y Configuración Inicial
+
+# Juego del Ahorcado Hangman en Python
+
+Proyecto desarrollado para la práctica de programación en Python.
+
+# Sobre el Juego
+Implementación del clásico Juego del Ahorcado en Python.
+Objetivo: Adivinar la palabra secreta oculta bajo guiones bajos antes de que se agoten tus vidas.
+Dinámica:El sistema elige al azar una palabra de un banco de 20 términos tecnológicos.
+Tienes 6 vidas. Cada error dibuja una parte del monigote en formato ASCII.
+Ingresa una letra a la vez por la terminal para descubrir el reto
+##  Reglas del Juego
+1. El programa seleccionara una palabra secreta al azar de un banco de 20 palabras en mayúsculas.
+2. Se mostrará en pantalla la palabra oculta en forma de guiones bajos .
+3. Tienes un total de 6 vidas que estan representadas gráficamente con etapas de un monigote en ASCII.
+4. En cada turno debes ingresar una sola letra alfabética.
+5. Si la letra está en la palabra, se revelará en su posición correspondiente. Si no está perderás una vida y se dibujará una parte del monigote.
+6. Ganas si descubres todas las letras antes de quedarte sin vidas. Pierdes si se agotan tus 6 vidas.
+
+## Como Ejecutar el Juego
+Asegúrate de tener Python instalado y debe estar dentro de la carpeta hangman_1_0:
+
+
+# Planificación y Configuración Inicial
+
 [x] 1. Definir los requerimientos del proyecto del juego del ahorcado.
 
 [x] 2. Planificar la estructura del programa dividida en tres archivos principales.
