@@ -62,3 +62,16 @@ while vidas > 0:
     if le_faltan_guiones == False:
         break
 
+# Mensaje final para saber si ganaste o perdiste
+gano = True
+for l in palabra_mostrada:
+    if l == "_":
+        gano = False
+
+if gano == True:
+    print("¡FELICIDADES! ¡HAS GANADO EL JUEGO!")
+    print("La palabra era:", palabra_oculta)
+else:
+    print("¡HAS PERDIDO! Te has quedado sin vidas.")
+    print(etapas[6]) 
+    print("La solucion era:", palabra_oculta)
