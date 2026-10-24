@@ -53,4 +53,12 @@ while vidas > 0:
     else:
         print("Tiene que ser una sola letra y estar en el rango [A-Z].")
 
- 
+    # Verificar si ya completo la palabra 
+    le_faltan_guiones = False
+    for l in palabra_mostrada:
+        if l == "_":
+            le_faltan_guiones = True
+            
+    if le_faltan_guiones == False:
+        break
+
